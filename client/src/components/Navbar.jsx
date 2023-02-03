@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <Box
       bg={"teal"}
-      color="grey"
+      color="white"
       display={"flex"}
       justifyContent="space-around"
       fontSize={25}
