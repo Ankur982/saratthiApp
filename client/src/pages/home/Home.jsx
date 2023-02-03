@@ -30,8 +30,9 @@ export const Home = () => {
   console.log(User);
 
   return (
-    <Box m={"auto"}>
-      <TableContainer>
+    <Box m={"auto"} >
+      <Heading m={"50px,0"} textAlign={"center"}>All Users List</Heading>
+      <TableContainer w={"80%"} m={"auto"} border={"4px solid teal"}>
         <Table variant="striped" colorScheme="teal">
           <TableCaption> User List</TableCaption>
           <Thead>
